@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#container{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+padding-right:10px;
+}
+
+.box{
+   display: flex; 
+   gap:20px;
+   color: #b516bb;
+}
+
+.box a{
+    text-decoration: none;
+    color: #b516bb;
+}
+.shop{
+    background-color: rgb(181, 22, 187);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    border-color:rgb(181, 22, 187) ;
+}
+
+.boxx{
+    display: flex;
+}
+.boxA{
+width: 100%;
+height: 20px;
+
+
+}
+.boxA p{
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+    
+
+}
+
+.boxA h3{
+    
+    font-size: 90px;
+    color: #b516bb ;
+    line-height: 100px;
+}
+
+.boxB{
+    width: 100%px;
+    height: 20px;
+    background-color: blue;
+    padding: 200px;
+    display: flex;
+}

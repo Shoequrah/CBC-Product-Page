@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#product-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+#product-left{
+    width: 100%;
+    flex: 0.55;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#product-right{
+    height: 100%;
+    flex: 0.45;
+}
+
+.image-container{
+    height: 500px;
+background-color: rgb(17, 8, 82);
+
+}
+
+.image-container img{
+    height:100% ;
+    object-fit: cover;
+    object-position: top;
+}
+
+#product-right h1{
+    font-size: 40px;
+}
+
+.star{
+    display: flex;
+    width: 15px;
+    height: 15px;
+
+}
+
+#review{
+    display: flex;
+    gap: 70px;
+}
+
+.dollar{
+    display: flex;
+    gap: 20px;
+ 
+}
+
+.dollar h2{
+    margin-top: 10px;  
+}
+.dollar p{
+    margin-top: 15px;
+    text-decoration: line-through;
+}
+
+#color{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+#price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+.v{
+    font-weight: 500;
+}
+
+#button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(206, 178, 165);
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.Add{
+    margin-left: 180px;
+    border: 0;
+    background-color: rgb(9, 9, 9) ;
+    color: white;
+}
+
+
+#button2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 9, 9);
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+#ask{
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    #product-right{
+        background-color: aquamarine;
+    }
+    #product-main{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #product-right{
+        background-color: rgb(6, 181, 123);
+    }
+
+    #image-container{
+        height: 300px;
+    }
+}
+    
